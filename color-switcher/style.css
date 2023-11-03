@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: blue;
+}
+button {
+  width: 4rem;
+  height: 2.5rem;
+  background-color: #333;
+  color: white;
+  margin: auto;
+}
+p {
+  font-size: 2rem;
+  font-weight: bold;
+}
