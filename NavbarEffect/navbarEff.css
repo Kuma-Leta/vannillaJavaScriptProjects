@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 3rem;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.navbar a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin-right:2rem ;
+    padding: 0.5rem;
+}
+
+ .fir{
+background-color: rgba(255, 128, 0, 0.991);
+}
+
+ .sec{
+background-color: green;
+}
+
+.thir{
+    background-color: rgb(153, 102, 51);
+}
+.four{
+background-color: rgb(0, 94, 255);
+} 
+.navbar-element{
+   min-height: 90vh;
+    max-width: 100%;
+}
+.navbar-element img{
+max-width: 100%;
+min-height: 100vh;
+object-fit: cover;
+}
